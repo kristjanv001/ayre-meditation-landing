@@ -9,6 +9,11 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   background-color: black;
   color: #f2f2f2;
+  min-height: 100%;
+}
+
+main {
+  min-height: 100%;
 }
 
 /* body {
@@ -368,7 +373,7 @@ body {
 }
 
 #email {
-  display: block;
+  /* display: block; */
   font-weight: bold;
 }
 
@@ -384,4 +389,32 @@ body {
 
 .social-media img {
   margin-right: 15px;
+}
+
+a {
+  color: #f2f2f2;
+}
+
+.privacy-policy-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  margin-top: 40px;
+}
+
+.privacy-policy-text {
+  border-radius: 10px;
+  padding: 30px;
+  font-weight: normal;
+  line-height: 28px;
+  font-size: 18px;
+  color: black;
+  max-width: 600px;
+  background-color: #f2f2f2;
+}
+
+.privacy-policy-back-home {
+  margin: 80px 0;
 }
