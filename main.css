@@ -1,16 +1,15 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'IBM Plex Sans', sans-serif;
-    background-color: black;
-    color: #F2F2F2;
-    
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: black;
+  color: #f2f2f2;
 }
-
 
 /* body {
     background-image: url("assets/bg-main-mobile.png");
@@ -32,364 +31,357 @@ html, body {
     }
 } */
 
-
 .nav-bar {
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0 30px 0 30px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 30px 0 30px;
 }
 
 @media screen and (min-width: 768px) {
-    .nav-bar {
-        height: 150px;
-    }
+  .nav-bar {
+    height: 150px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .nav-bar {
-        padding: 0 100px 0 100px;
-    }
+  .nav-bar {
+    padding: 0 100px 0 100px;
+  }
 }
-
 
 .header-pattern {
-    display: none;
-    overflow-x: hidden;
+  display: none;
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: 768px) {
-    .header-pattern {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;        
-    }
+  .header-pattern {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .header-pattern {
-        top: 0;
-        right: 0;
-    }
+  .header-pattern {
+    top: 0;
+    right: 0;
+  }
 }
 
 .hero {
-    margin-top: 50px;
-    padding: 0 30px 0 30px;
-    min-height: 400px;
+  margin-top: 50px;
+  padding: 0 30px 0 30px;
+  min-height: 400px;
 }
 
 @media screen and (min-width: 768px) {
-    .hero {
-        max-width: 520px;
-        margin-top: 100px;
-    }
+  .hero {
+    max-width: 520px;
+    margin-top: 100px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .hero {
-        max-width: 780px;
-    }
+  .hero {
+    max-width: 780px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .hero {
-        max-width: 1042px;
-        padding: 0 100px 0 100px;
-    }
+  .hero {
+    max-width: 1042px;
+    padding: 0 100px 0 100px;
+  }
 }
 
 .hero-title {
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 48px;
-    letter-spacing: -0.45;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 48px;
+  letter-spacing: -0.45;
 }
 
 @media screen and (min-width: 590px) {
-    .hero-title {
-        font-size: 64px;
-        line-height: 64px;
-        letter-spacing: -0.727273px;
-    }
+  .hero-title {
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.727273px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .hero-title {
-        font-size: 88px;
-        line-height: 88px;
-        letter-spacing: -1px;
-    }
+  .hero-title {
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+  }
 }
 
 .hero-text {
-    line-height: 26px;
-    font-size: 16px;
+  line-height: 26px;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 590px) {
-    .hero-text {
-        font-size: 18px;
-        line-height: 28px;
-    }
+  .hero-text {
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .hero-text {
-        font-size: 20px;
-        line-height: 34px;
-    }
+  .hero-text {
+    font-size: 20px;
+    line-height: 34px;
+    max-width: 680px;
+  }
 }
 
-
 .app-display {
-    background-color: #F2F2F2;
-    border-radius: 12px;
-    text-align: center;
-    margin-top: 100px;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 100px;
 }
 
 @media screen and (min-width: 590px) {
-    .app-display {
-        margin: 0 30px;
-        margin-top: 150px;
-    }
+  .app-display {
+    margin: 0 30px;
+    margin-top: 150px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .app-display {
-        margin-top: 180px;
-    }
+  .app-display {
+    margin-top: 180px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .app-display {
-        margin-top: 220px;
-        min-height: 700px;
-    }
+  .app-display {
+    margin-top: 220px;
+    min-height: 700px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .app-display {
-        margin: 0 100px;
-        margin-top: 210px;
-    }
+  .app-display {
+    margin: 0 100px;
+    margin-top: 210px;
+  }
 }
 
 .app-illustration {
-    max-width: 65%;
-    height: auto;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -25%);
-    z-index: 2;
-
+  max-width: 65%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  z-index: 2;
 }
 
 @media screen and (min-width: 768px) {
-    .app-illustration {
-        max-width: 36%;
-        transform: translate(-110%, -25%);
-    }
+  .app-illustration {
+    max-width: 36%;
+    transform: translate(-110%, -25%);
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .app-illustration {
-        max-width: 40%;
-        transform: translate(-105%, -15%);
-    }
+  .app-illustration {
+    max-width: 40%;
+    transform: translate(-105%, -15%);
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .app-illustration {
-        max-width: 27%;
-        transform: translate(-134%, -17%);
-    }
+  .app-illustration {
+    max-width: 27%;
+    transform: translate(-134%, -17%);
+  }
 }
 
 .background-box {
-    display: block;
-    /* position: relative; */
-    /* z-index: 1; */
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
+  display: block;
+  /* position: relative; */
+  /* z-index: 1; */
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
 }
 
 .cta-card {
-    background-color: #FCFAF9;
-    border-radius: 12px;
-    margin-top: -70px;
-    z-index: 2;
-    position: relative;
-    color: black;
-    text-align: left;
-    padding: 0 30px 30px 30px;
+  background-color: #fcfaf9;
+  border-radius: 12px;
+  margin-top: -70px;
+  z-index: 2;
+  position: relative;
+  color: black;
+  text-align: left;
+  padding: 0 30px 30px 30px;
 }
 
 @media screen and (min-width: 590px) {
-    .cta-card {
-        position: absolute;
-        width: 60%;
-        top: 112%;
-        right: 10%;
-    }
+  .cta-card {
+    position: absolute;
+    width: 60%;
+    top: 112%;
+    right: 10%;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .cta-card {
-        width: 399px;
-        top: 93%;
-    }
+  .cta-card {
+    width: 399px;
+    top: 93%;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .cta-card {
-        width: 446px;
-        /* top: 93%; */
-        transform: translate(-26%, 55%);
-    }
+  .cta-card {
+    width: 446px;
+    /* top: 93%; */
+    transform: translate(-26%, 55%);
+  }
 }
 
 .cta-title {
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 40px;
-    margin-right: 20px;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  margin-right: 20px;
 }
 
 @media screen and (min-width: 1024px) {
-    .cta-title {
-        font-size: 40px;
-        line-height: 52px;
-    }
+  .cta-title {
+    font-size: 40px;
+    line-height: 52px;
+  }
 }
 
 .cta-title-container {
-    padding-top: 50px;
-    display: flex;
-    flex-direction: row;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
 }
 
 .cta-text {
-    font-weight: normal;
-    line-height: 28px;
-    font-size: 18px;
+  font-weight: normal;
+  line-height: 28px;
+  font-size: 18px;
 }
 
 @media screen and (min-width: 1024px) {
-    .cta-text {
-        font-size: 20px;
-        line-height: 34px;
-    }
+  .cta-text {
+    font-size: 20px;
+    line-height: 34px;
+  }
 }
 
 .price-btns {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 
 .price {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .price-number {
-    font-weight: bold;
-    font-size: 65px;
+  font-weight: bold;
+  font-size: 65px;
 }
 
 .price-period {
-    font-size: 20px;
-    letter-spacing: -0.2px;
-    line-height: 32px;
-    padding-left: 20px;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  line-height: 32px;
+  padding-left: 20px;
 }
 
 .ios-btn {
-    background-color: #191826;
-    padding: 15px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border-radius: 12px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 32px;
-    letter-spacing: -0.18px;
-    color: #FCFAF9;
-    text-decoration: none;
-    height: 61px;
+  background-color: #191826;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  color: #fcfaf9;
+  text-decoration: none;
+  height: 61px;
 }
 
 .ios-btn-text {
-    padding-left: 10px;
+  padding-left: 10px;
 }
-
-
 
 /* Footer */
 .footer {
-    margin-top: 50px;
-    padding: 0 30px;
+  margin-top: 50px;
+  padding: 0 30px;
 }
 
 @media screen and (min-width: 590px) {
-    .footer {
-        margin-top: 300px;
-    }
+  .footer {
+    margin-top: 300px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .footer {
-        padding: 0 100px;
-    }
+  .footer {
+    padding: 0 100px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .footer-text-and-icons {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 80px;
-    }
+  .footer-text-and-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
 }
 
 .footer-text {
-    margin-top: 30px;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
+  margin-top: 30px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 @media screen and (min-width: 768px) {
-    .footer-text {
-        margin-top: 0;
-    }
+  .footer-text {
+    margin-top: 0;
+  }
 }
 
 #email {
-    display: block;
-    font-weight: bold;
+  display: block;
+  font-weight: bold;
 }
 
 .social-media {
-    margin: 70px 0
+  margin: 70px 0;
 }
 
 @media screen and (min-width: 768px) {
-    .social-media {
-        margin: 0;
-    }
+  .social-media {
+    margin: 0;
+  }
 }
 
 .social-media img {
-    margin-right: 15px;
+  margin-right: 15px;
 }
-
-
